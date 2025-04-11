@@ -64,7 +64,7 @@ export default {
     },
     error: {
       title: "Not Found",
-      notFound: "Either this page is private or doesn't exist.",
+      notFound: "i havent gotten to this page yet, or it's an unpublished draft ;)",
       home: "Return to Homepage",
     },
     folderContent: {

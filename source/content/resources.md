@@ -13,6 +13,7 @@
 - [Susan Blackmore: Genes, Memes and Temes](https://iai.tv/video/genes-memes-and-temes
 - [​Human Weather: Applied Psychosecurity w/ Patrick Ryan - YouTube](https://www.youtube.com/watch?v=EL542ohNCQ4)
 ##### essays
+- [The Extended Mind](https://consc.net/papers/extended.html)
 - [SCP-055 - SCP Foundation](https://scp-wiki.wikidot.com/scp-055)
 ##### classes
 - [1. Introduction to Human Behavioral Biology - YouTube](https://www.youtube.com/watch?v=NNnIGh9g6fA&list=PL848F2368C90DDC3D)

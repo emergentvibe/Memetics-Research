@@ -1,2 +1,3 @@
 - Can Cybernetic Processes be viewed as Memes? #question 
 - How can we categorise Memes based on complexity? e.g. Complicated vs Complex Memes #question 
+- how do non-coding memes spread? #question 

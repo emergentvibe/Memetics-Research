@@ -1,16 +1,12 @@
-A meme is the basic unit of mental heredity. There are two kinds of memes. Behaviour Coding memes and non-coding memes. 
-# Behaviour Coding Memes
-I see memes I've picked up throughout my life affecting my behaviour at a deeply unconscious level all the time. I sneeze like my dad and I clear my throat like my mum. I sit like my grandfather. When I enter a room I usually greet people with a 🤙 which I picked up from a coworker. 
-# Non-Coding Memes
-One function of non-coding memes act as [[memetic regulators of meme expression]]. 
+# the meme as the basic unit of mind
+the meme is the behavioural analog of genes first introduced as a neologism by Richard Dawkins in his book "the selfish gene". like genes are the physical manifestations of genetic information, and through their expression into proteins we get cells, tissues, and organs, memes are the physical manifestations of the memetic information that through their expression we get instinct, habits, belief, identity, culture, social movements.
 
-When is a behaviour applied? You have many memes, many behaviours. There must be an if-this-then-that kind of structure that also is of a memetic nature that can regulate the expression of memes.
+the meme is the basic unit of mental heredity that erases the boundaries between individual minds and allows us to model the mind as something that is shared through language.
+# meme classifications
+there are two kinds of memes. behaviour coding memes and non-coding memes. 
 
-![[memetic regulators of meme expression]]
+![[behaviour coding memes]]
 
-these regulator is formed from the interaction of an emerging subculture/egregore/superorganism and is typically where neologisms form, leading to new language and memetic evolution.
-
-then u can talk about phenotypic expression of memes and how the environment shapes the regulators, how they bundle up into part behaviours that build up your identity. i strongly believe there's predictive power here waiting to be discovered - will free will be destroyed? "if we are the slaves of some of "our" cultural traits, isn't it time we knew it?" (Cloak 1975)
-
-Questions:
-- What are some example non-coding memes? How do those memes spread? #question 
+![[non-coding memes - memetic expression regulators]]
+# meme properties
+![[verbality]]
