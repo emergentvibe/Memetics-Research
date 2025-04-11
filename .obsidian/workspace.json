@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/content/memes - coding and regulating behaviour.md",
+                "file": "source/content/mapping the memetic soul toward a predictive model of human consciousness.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "memes - coding and regulating behaviour"
+              "title": "mapping the memetic soul toward a predictive model of human consciousness"
             }
           }
         ],
@@ -186,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/content/index.md",
+                "file": "source/content/mapping the memetic soul toward a predictive model of human consciousness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for mapping the memetic soul toward a predictive model of human consciousness"
             }
           },
           {
@@ -259,14 +259,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4150aca80d37e65",
+  "active": "566527ebde542711",
   "lastOpenFiles": [
-    "source/content/memetic regulator classifications.md",
-    "source/content/garden weather.md",
-    "source/content/index.md",
-    "source/content/somewhat watered essay seeds.md",
+    "source/content/mapping the memetic soul - draft.md",
     "source/content/mapping the memetic soul toward a predictive model of human consciousness.md",
     "source/content/memes - coding and regulating behaviour.md",
+    "source/content/index.md",
+    "source/content/memetic regulator classifications.md",
+    "source/content/garden weather.md",
+    "source/content/somewhat watered essay seeds.md",
     "source/content/memetic evolution.md",
     "source/content/the memetic self.md",
     "memetic evolution.md",
@@ -283,7 +284,6 @@
     "source/content/human creativity and expanding LLM consciousness.md",
     "source/content/the source of behaviour.md",
     "source/content/building 20.md",
-    "source/content/mapping the memetic soul - draft.md",
     "source/content/question car park.md",
     "source/content/Untitled.md",
     "source/content/language trees.md",
