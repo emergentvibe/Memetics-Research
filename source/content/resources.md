@@ -1,17 +1,12 @@
 ##### books:
 - [The Meme Machine - Wikipedia](https://en.wikipedia.org/wiki/The_Meme_Machine)|
-- [Switch - Heath Brothers Heath Brothers](https://heathbrothers.com/books/switch/)
-- [Atomic Habits: Tiny Changes, Remarkable Results by James Clear](https://jamesclear.com/atomic-habits)
-- how to win an information war peter pomerantsev
-- code depended how ai is changing our lives
-- the identity trap mounk
-- what we owe the future
-- anaximander and the nature of science rovelli
-- inheritance the evolutionary origins of the modern world
+
 ##### talks
 - [What Darwin won't tell you about evolution - with Jonathan Pettitt - YouTube](https://www.youtube.com/watch?v=7dzoGb-jcW4)
-- [Susan Blackmore: Genes, Memes and Temes](https://iai.tv/video/genes-memes-and-temes
+- [Susan Blackmore: Genes, Memes and Temes](https://iai.tv/video/genes-memes-and-temes)
 - [​Human Weather: Applied Psychosecurity w/ Patrick Ryan - YouTube](https://www.youtube.com/watch?v=EL542ohNCQ4)
+- [If Brains are Computers, Who Designs the Software? - with Daniel Dennett - YouTube](https://www.youtube.com/watch?v=TTFoJQSd48c)
+- [Daniel Dennett: Breaking the Spell - Religion as a Natural Phenomenon - YouTube](https://www.youtube.com/watch?v=5WhQ8bSvcHQ&list=PLxhSp6uzDOiwqBlp9P-VlP4PuoPsPaFV3&index=11)
 ##### essays
 - [The Extended Mind](https://consc.net/papers/extended.html)
 - [SCP-055 - SCP Foundation](https://scp-wiki.wikidot.com/scp-055)

@@ -8,7 +8,6 @@
 
 
 backlog
-- [[language trees]]
 - [[meme templates]]
 - [[cybernetics]]
 	- [[psycho-cybernetics]]
@@ -17,7 +16,6 @@ backlog
 	- [[management cybernetics]]
 		- [[meme streams]]
 		- [[meme stream interaction]]
-
 - [[memetic retroviruses]]
 - [[memetic evolution]]
 - [[memeplexes]]

@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "8fb477d742b7b504",
+            "id": "35d361535f0b2cf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,6 +33,34 @@
               },
               "icon": "lucide-file",
               "title": "index"
+            }
+          },
+          {
+            "id": "65b3620a7a9d3aa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/content/essay seeds.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "essay seeds"
+            }
+          },
+          {
+            "id": "8fb477d742b7b504",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/content/somewhat watered essay seeds.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "somewhat watered essay seeds"
             }
           }
         ],
@@ -182,34 +210,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8fb477d742b7b504",
+  "active": "35d361535f0b2cf3",
   "lastOpenFiles": [
-    "source/content/language trees.md",
-    "source/content/mapping the memetic soul toward a predictive model of human consciousness.md",
-    "source/content/index.md",
-    "source/content/mapping the memetic soul - draft.md",
-    "source/content/map of content.md",
-    "source/content/about me.md",
-    "source/content/research direction.md",
-    "source/content/map of emerging content.md",
     "source/content/research strategy.md",
-    "source/content/self critique.md",
     "source/content/essays.md",
-    "source/content/somewhat watered essay seeds.md",
-    "source/content/research manifesto.md",
-    "source/content/apps.md",
-    "source/content/art manifesto - capturing an emergent vibe - collaborative subconscious painting ritual.md",
-    "source/content/memetics.md",
-    "source/content/antimemes.md",
-    "source/content/memetic regulator classifications.md",
-    "source/content/memes - coding and regulating behaviour.md",
+    "source/content/essay seeds.md",
     "source/content/foundations.md",
-    "source/content/replicator interactions.md",
     "source/content/memeology.md",
-    "source/content/psycho-cybernetics.md",
-    "source/content/building 20.md",
-    "source/content/foundational cybernetics.md",
-    "source/content/foundational cybernetic patterns.md",
+    "source/content/memetic weather stations.md",
+    "source/content/language trees.md",
+    "source/content/browser extension that collates anonymised data samples from a user's feeds.md",
+    "source/content/index.md",
+    "source/content/somewhat watered essay seeds.md",
+    "source/content/emergent AI personas.md",
+    "source/content/device that monitors all tv and radio channels in a country.md",
+    "source/content/memetic regulator classifications.md",
+    "source/content/non-coding memes - memetic expression regulators.md",
+    "source/content/behaviour coding memes.md",
+    "source/content/memes - coding and regulating behaviour.md",
+    "source/content/question car park.md",
+    "source/content/garden weather.md",
+    "source/content/map of emerging content.md",
+    "source/content/human creativity and expanding LLM consciousness.md",
+    "source/content/an atomic theory of memes.md",
+    "source/content/the hyperobject i'm pointing at.md",
+    "source/content/euformatics.md",
+    "source/content/AI therapy.md",
+    "source/content/living with the moots.md",
+    "source/content/what are normies.md",
     "source/public/building-20.html",
     "source/public/language-trees.html",
     "source/public/Untitled.html",
