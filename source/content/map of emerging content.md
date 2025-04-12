@@ -1,5 +1,4 @@
-![[foundational memetics]]
-![[foundational cybernetics]]
+![[foundations]]
 ![[essay seeds]]
 
 *also see [[map of content]]*

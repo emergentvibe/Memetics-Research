@@ -1,3 +1,0 @@
-spotify Model
-reinventing organizations
-sociocracy

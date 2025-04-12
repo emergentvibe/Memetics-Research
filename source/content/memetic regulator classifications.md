@@ -16,3 +16,4 @@ these are memes that allow for open expression of ideas
 - free speech ideas
 - valuing authenticity
 - accepting mistakes
+- [[why do open research?]]
