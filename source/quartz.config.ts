@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Emergent Research",
-    pageTitleSuffix: " | Open Research Institute",
+    pageTitleSuffix: " | Emergent Research",
     enableSPA: true,
     enablePopovers: true,
     analytics: {

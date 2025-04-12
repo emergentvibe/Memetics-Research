@@ -10,3 +10,4 @@ our current models of consciousness remain fragmented and incomplete - psycholog
  see next: [[the source of behaviour]]
 
 [[mapping the memetic soul - draft]]
+
