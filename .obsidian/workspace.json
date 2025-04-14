@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/content/language trees.md",
+                "file": "source/content/research manifesto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "language trees"
+              "title": "research manifesto"
             }
           },
           {
@@ -63,8 +63,7 @@
               "title": "somewhat watered essay seeds"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/content/index.md",
+                "file": "source/content/research manifesto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +146,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for research manifesto"
             }
           },
           {
@@ -210,17 +209,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35d361535f0b2cf3",
+  "active": "6448e4bb7f15a0b2",
   "lastOpenFiles": [
+    "source/content/language trees.md",
+    "source/content/index.md",
+    "source/content/cartography as countermeasure - mapping memetic hyperobjects.md",
+    "source/content/the bodhisattvic memecomplex awakening the superorganism.md",
+    "source/content/mapping the memetic soul toward a predictive model of human consciousness.md",
+    "source/content/the source of behaviour.md",
     "source/content/research strategy.md",
     "source/content/essays.md",
     "source/content/essay seeds.md",
     "source/content/foundations.md",
     "source/content/memeology.md",
     "source/content/memetic weather stations.md",
-    "source/content/language trees.md",
     "source/content/browser extension that collates anonymised data samples from a user's feeds.md",
-    "source/content/index.md",
     "source/content/somewhat watered essay seeds.md",
     "source/content/emergent AI personas.md",
     "source/content/device that monitors all tv and radio channels in a country.md",
@@ -234,10 +237,6 @@
     "source/content/human creativity and expanding LLM consciousness.md",
     "source/content/an atomic theory of memes.md",
     "source/content/the hyperobject i'm pointing at.md",
-    "source/content/euformatics.md",
-    "source/content/AI therapy.md",
-    "source/content/living with the moots.md",
-    "source/content/what are normies.md",
     "source/public/building-20.html",
     "source/public/language-trees.html",
     "source/public/Untitled.html",
