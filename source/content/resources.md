@@ -7,6 +7,7 @@
 - [​Human Weather: Applied Psychosecurity w/ Patrick Ryan - YouTube](https://www.youtube.com/watch?v=EL542ohNCQ4)
 - [If Brains are Computers, Who Designs the Software? - with Daniel Dennett - YouTube](https://www.youtube.com/watch?v=TTFoJQSd48c)
 - [Daniel Dennett: Breaking the Spell - Religion as a Natural Phenomenon - YouTube](https://www.youtube.com/watch?v=5WhQ8bSvcHQ&list=PLxhSp6uzDOiwqBlp9P-VlP4PuoPsPaFV3&index=11)
+- ['The Evolution of Confusion' by Dan Dennett, AAI 2009 - YouTube](https://www.youtube.com/watch?v=D_9w8JougLQ)
 ##### essays
 - [The Extended Mind](https://consc.net/papers/extended.html)
 - [SCP-055 - SCP Foundation](https://scp-wiki.wikidot.com/scp-055)

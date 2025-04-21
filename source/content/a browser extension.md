@@ -1,3 +1,0 @@
-- history subgraph
-- semantic history search
-- related nodes
