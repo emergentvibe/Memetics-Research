@@ -13,20 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/content/research manifesto.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "research manifesto"
-            }
-          },
-          {
-            "id": "35d361535f0b2cf3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "source/content/index.md",
                 "mode": "source",
                 "source": false
@@ -36,49 +22,21 @@
             }
           },
           {
-            "id": "2a8e770759dead28",
+            "id": "1cf64027d75c4513",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/content/Open Memetics Backlog Refinement.md",
+                "file": "source/content/ask the internet – consensus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Open Memetics Backlog Refinement"
-            }
-          },
-          {
-            "id": "65b3620a7a9d3aa1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "source/content/essay seeds.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "essay seeds"
-            }
-          },
-          {
-            "id": "8fb477d742b7b504",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "source/content/resources.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "resources"
+              "title": "ask the internet – consensus"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -152,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/content/Open Memetics Backlog Refinement.md",
+                "file": "source/content/ask the internet – consensus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Open Memetics Backlog Refinement"
+              "title": "Backlinks for ask the internet – consensus"
             }
           },
           {
@@ -225,12 +182,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a8e770759dead28",
+  "active": "1cf64027d75c4513",
   "lastOpenFiles": [
     "source/content/index.md",
-    "source/content/Open Memetics Backlog Refinement.md",
     "source/content/research manifesto.md",
+    "source/content/mapping the memetic soul toward a predictive model of human consciousness.md",
+    "source/content/ask the internet – consensus.md",
+    "source/content/somewhat watered essay seeds.md",
     "source/content/apps.md",
+    "source/content/essays.md",
+    "source/content/research strategy.md",
+    "source/content/garden weather.md",
+    "source/content/resources.md",
+    "source/content/map of emerging content.md",
+    "source/content/essay seeds.md",
+    "source/content/cartography as countermeasure - mapping memetic hyperobjects.md",
+    "source/content/the bodhisattvic memecomplex awakening the superorganism.md",
+    "source/content/the source of behaviour.md",
+    "source/content/Open Memetics Backlog Refinement.md",
+    "source/content/thought.md",
     "source/content/project proposals to solve coordination problems.md",
     "source/content/project proposals for an open ecosystem of apps for memetics research.md",
     "source/content/memetic weather stations.md",
@@ -238,21 +208,8 @@
     "source/content/egregorology - tracking and studying emergent AI entities.md",
     "source/content/emergent AI personas.md",
     "source/content/machine gods - an uncontrolled AI replicator.md",
-    "source/content/resources.md",
-    "source/content/somewhat watered essay seeds.md",
     "source/content/language trees.md",
-    "source/content/cartography as countermeasure - mapping memetic hyperobjects.md",
-    "source/content/the bodhisattvic memecomplex awakening the superorganism.md",
-    "source/content/mapping the memetic soul toward a predictive model of human consciousness.md",
-    "source/content/the source of behaviour.md",
-    "source/content/research strategy.md",
-    "source/content/essays.md",
-    "source/content/essay seeds.md",
     "source/content/foundations.md",
-    "source/content/memeology.md",
-    "source/content/browser extension that collates anonymised data samples from a user's feeds.md",
-    "source/content/device that monitors all tv and radio channels in a country.md",
-    "source/content/memetic regulator classifications.md",
     "source/public/building-20.html",
     "source/public/language-trees.html",
     "source/public/Untitled.html",

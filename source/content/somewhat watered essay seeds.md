@@ -2,3 +2,4 @@
 - [[the source of behaviour]]
 - [[the bodhisattvic memecomplex awakening the superorganism]]
 - [[cartography as countermeasure - mapping memetic hyperobjects]]
+- [[ask the internet – consensus]]
