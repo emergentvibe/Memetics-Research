@@ -1,4 +1,7 @@
 [
   "obsidian-git",
-  "settings-search"
+  "settings-search",
+  "paste-link",
+  "dataview",
+  "dataview-serializer"
 ]
