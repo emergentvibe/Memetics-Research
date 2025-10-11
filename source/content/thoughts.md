@@ -12,10 +12,5 @@ I'm setting up this digital garden as an attempt to satisfy my own curiosity. I 
 For more information regarding my long term motivations checkout my [[research manifesto]] and [[research strategy]].
 
 ---
-# Checkout my [[map of content]]
 
----
-
-This research is done in partnership with the [Open Research Institute](https://open-research-institute.github.io/)
-
-![[Pasted image 20250320095843.png]]
+![[map of content]]
