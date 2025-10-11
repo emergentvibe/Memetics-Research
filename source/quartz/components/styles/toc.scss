@@ -1,6 +1,12 @@
 .toc {
   display: flex;
   flex-direction: column;
+  background: rgba(26, 26, 46, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 243, 255, 0.2);
+  border-radius: 6px;
+  padding: 1rem;
+
   &.desktop-only {
     display: flex;
     max-height: 40%;
@@ -13,20 +19,33 @@ button#toc {
   text-align: left;
   cursor: pointer;
   padding: 0;
-  color: var(--dark);
+  color: var(--secondary);
   display: flex;
   align-items: center;
+  margin-bottom: 0.75rem;
 
   & h3 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     display: inline-block;
     margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--tertiary);
+    text-shadow: 0 0 8px rgba(138, 43, 226, 0.4);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    &::before {
+      content: '▶ ';
+      opacity: 0.6;
+      font-size: 0.8em;
+    }
   }
 
   & .fold {
     margin-left: 0.5rem;
     transition: transform 0.3s ease;
     opacity: 0.8;
+    color: var(--secondary);
   }
 
   &.collapsed .fold {
@@ -61,14 +80,44 @@ button#toc {
     list-style: none;
     margin: 0.5rem 0;
     padding: 0;
+    & > li {
+      position: relative;
+      padding-left: 0.75rem;
+
+      &::before {
+        content: '→';
+        position: absolute;
+        left: 0;
+        color: var(--secondary);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      &:hover::before {
+        opacity: 0.6;
+      }
+    }
+
     & > li > a {
-      color: var(--dark);
-      opacity: 0.35;
-      transition:
-        0.5s ease opacity,
-        0.3s ease color;
+      color: var(--darkgray);
+      opacity: 0.5;
+      transition: all 0.3s ease;
+      font-size: 0.9rem;
+
+      &::after {
+        display: none;
+      }
+
       &.in-view {
-        opacity: 0.75;
+        opacity: 1;
+        color: var(--secondary);
+        text-shadow: 0 0 6px rgba(0, 243, 255, 0.3);
+      }
+
+      &:hover {
+        color: var(--tertiary) !important;
+        opacity: 1;
+        text-shadow: 0 0 6px rgba(138, 43, 226, 0.4);
       }
     }
   }

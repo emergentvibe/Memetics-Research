@@ -70,6 +70,8 @@ export interface GlobalConfiguration {
    * Region Codes: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
    */
   locale: ValidLocale
+  /** Buy Me a Coffee API token for fetching supporter stats */
+  buyMeCoffeeToken?: string
 }
 
 export interface QuartzConfig {

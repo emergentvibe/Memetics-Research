@@ -4,23 +4,17 @@
   display: flex;
   flex-direction: column;
   overflow-y: hidden;
+  background: rgba(26, 26, 46, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 243, 255, 0.2);
+  border-radius: 6px;
+  padding: 1rem;
+
   &.desktop-only {
     @media all and not ($mobile) {
       display: flex;
     }
   }
-  /*&:after {
-    pointer-events: none;
-    content: "";
-    width: 100%;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    opacity: 1;
-    transition: opacity 0.3s ease;
-    background: linear-gradient(transparent 0px, var(--light));
-  }*/
 }
 
 button#explorer {
@@ -29,20 +23,33 @@ button#explorer {
   text-align: left;
   cursor: pointer;
   padding: 0;
-  color: var(--dark);
+  color: var(--secondary);
   display: flex;
   align-items: center;
+  margin-bottom: 0.75rem;
 
   & h2 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     display: inline-block;
     margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--tertiary);
+    text-shadow: 0 0 8px rgba(138, 43, 226, 0.4);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    &::before {
+      content: '📁 ';
+      opacity: 0.8;
+      font-size: 0.9em;
+    }
   }
 
   & .fold {
     margin-left: 0.5rem;
     transition: transform 0.3s ease;
     opacity: 0.8;
+    color: var(--secondary);
   }
 
   &.collapsed .fold {
@@ -92,9 +99,35 @@ button#explorer {
       transform 0.35s ease,
       opacity 0.2s ease;
     & li > a {
-      color: var(--dark);
-      opacity: 0.75;
+      color: var(--darkgray);
+      opacity: 0.8;
       pointer-events: all;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+      padding: 0.15rem 0;
+      display: block;
+
+      &::before {
+        content: '▸ ';
+        color: var(--secondary);
+        opacity: 0.5;
+        margin-right: 0.25rem;
+      }
+
+      &::after {
+        display: none;
+      }
+
+      &:hover {
+        color: var(--secondary) !important;
+        opacity: 1;
+        text-shadow: 0 0 6px rgba(0, 243, 255, 0.3);
+        padding-left: 0.25rem;
+
+        &::before {
+          opacity: 1;
+        }
+      }
     }
   }
   > #explorer-ul {
@@ -115,22 +148,34 @@ svg {
   display: flex;
   align-items: center;
   user-select: none;
+  padding: 0.15rem 0;
+  transition: all 0.3s ease;
+
+  &:hover {
+    padding-left: 0.25rem;
+  }
 
   & div > a {
     color: var(--secondary);
     font-family: var(--headerFont);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-weight: $semiBoldWeight;
     line-height: 1.5rem;
     display: inline-block;
+    transition: all 0.3s ease;
+
+    &::after {
+      display: none;
+    }
   }
 
   & div > a:hover {
     color: var(--tertiary);
+    text-shadow: 0 0 8px rgba(138, 43, 226, 0.4);
   }
 
   & div > button {
-    color: var(--dark);
+    color: var(--secondary);
     background-color: transparent;
     border: none;
     text-align: left;
@@ -140,15 +185,21 @@ svg {
     display: flex;
     align-items: center;
     font-family: var(--headerFont);
+    transition: all 0.3s ease;
+
+    &:hover span {
+      text-shadow: 0 0 6px rgba(0, 243, 255, 0.3);
+    }
 
     & span {
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       display: inline-block;
       color: var(--secondary);
       font-weight: $semiBoldWeight;
       margin: 0;
       line-height: 1.5rem;
       pointer-events: none;
+      transition: all 0.3s ease;
     }
   }
 }
@@ -157,8 +208,9 @@ svg {
   margin-right: 5px;
   color: var(--secondary);
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
   backface-visibility: visible;
+  filter: drop-shadow(0 0 2px rgba(0, 243, 255, 0.3));
 }
 
 li:has(> .folder-outer:not(.open)) > .folder-container > svg {
@@ -167,6 +219,7 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
 
 .folder-icon:hover {
   color: var(--tertiary);
+  filter: drop-shadow(0 0 4px rgba(138, 43, 226, 0.5));
 }
 
 .no-background::after {

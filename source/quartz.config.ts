@@ -8,24 +8,24 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Emergent Research",
-    pageTitleSuffix: " | Emergent Research",
+    pageTitle: "EmergentVibe",
+    pageTitleSuffix: " | EmergentVibe",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "research.emergentvibe.com",
+    baseUrl: "emergentvibe.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Special Elite",
-        body: "Special Elite",
-        code: "Special Elite",
+        header: "Orbitron",
+        body: "Inter",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
@@ -40,15 +40,15 @@ const config: QuartzConfig = {
           textHighlight: "#e67e2288",
         },
         darkMode: {
-          light: "#f9f9f9",
-          lightgray: "#e8e8e8",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#333333",
-          secondary: "#5e3a98",
-          tertiary: "#26a69a",
-          highlight: "rgba(94, 58, 152, 0.15)",
-          textHighlight: "#e67e2288",
+          light: "#1a1a2e",
+          lightgray: "#2a2a3e",
+          gray: "#6a6a7e",
+          darkgray: "#c0c0c0",
+          dark: "#e0e0e0",
+          secondary: "#00ffff",
+          tertiary: "#8a2be2",
+          highlight: "rgba(0, 255, 255, 0.15)",
+          textHighlight: "#8a2be288",
         },
       },
     },
@@ -78,7 +78,9 @@ const config: QuartzConfig = {
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
-      Plugin.FolderPage(),
+      Plugin.FolderPage({
+        showFolderCount: false,
+      }),
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,

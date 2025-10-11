@@ -5,14 +5,15 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-    Component.PageTitle(),
+    Component.CustomNav(),
     Component.Search(),
   ],
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/OpenResearchInstitute/Memetics-Research",
-      "Open Research Institute": "https://openresearchinstitute.org/",
+      GitHub: "https://github.com/emergentvibe",
+      Substack: "https://emergentvibe.substack.com/",
+      "X (Twitter)": "https://x.com/emergentvibe",
     },
   }),
 }
@@ -24,22 +25,30 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    Component.PhotoGallery(),
   ],
   left: [],
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.SocialLinks(),
+    Component.BuyMeCoffee(),
   ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(), 
-    Component.ArticleTitle(), 
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
     Component.ContentMeta()
   ],
   left: [],
-  right: [],
+  right: [
+    Component.Graph(),
+    Component.Backlinks(),
+    Component.SocialLinks(),
+    Component.BuyMeCoffee(),
+  ],
 }

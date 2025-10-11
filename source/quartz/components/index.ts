@@ -20,6 +20,12 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
+import CustomNav from "./CustomNav"
+import CustomHomepage from "./CustomHomepage"
+import PhotoGallery from "./PhotoGallery"
+import GitHubProject from "./GitHubProject"
+import SocialLinks from "./SocialLinks"
+import BuyMeCoffee from "./BuyMeCoffee"
 
 export {
   ArticleTitle,
@@ -44,4 +50,10 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
+  CustomNav,
+  CustomHomepage,
+  PhotoGallery,
+  GitHubProject,
+  SocialLinks,
+  BuyMeCoffee,
 }

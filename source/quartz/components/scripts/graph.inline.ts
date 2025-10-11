@@ -166,7 +166,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     .force("charge", forceManyBody().strength(-100 * repelForce))
     .force("center", forceCenter().strength(centerForce))
     .force("link", forceLink(graphData.links).distance(linkDistance))
-    .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(3))
+    .force("collide", forceCollide<NodeData>((n) => collisionRadius(n)).iterations(3))
 
   const width = graph.offsetWidth
   const height = Math.max(graph.offsetHeight, 250)
@@ -207,6 +207,14 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       (l) => l.source.id === d.id || l.target.id === d.id,
     ).length
     return 2 + Math.sqrt(numLinks)
+  }
+
+  function collisionRadius(d: NodeData) {
+    // Include space for labels: node radius + approximate label height/width
+    // Labels are positioned below nodes with word wrap at 150px
+    const baseRadius = nodeRadius(d)
+    const labelSpace = 12 // Approximate space needed for labels
+    return baseRadius + labelSpace
   }
 
   let hoveredNodeId: string | null = null
@@ -259,7 +267,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
         alpha = l.active ? 1 : 0.2
       }
 
-      l.color = l.active ? computedStyleMap["--gray"] : computedStyleMap["--lightgray"]
+      l.color = l.active ? computedStyleMap["--secondary"] : computedStyleMap["--lightgray"]
       tweenGroup.add(new Tweened<LinkRenderData>(l).to({ alpha }, 200))
     }
 
@@ -280,28 +288,26 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     const activeScale = defaultScale * 1.1
     for (const n of nodeRenderData) {
       const nodeId = n.simulationData.id
+      let labelAlpha = n.label.alpha
+      let labelScale = defaultScale
 
       if (hoveredNodeId === nodeId) {
-        tweenGroup.add(
-          new Tweened<Text>(n.label).to(
-            {
-              alpha: 1,
-              scale: { x: activeScale, y: activeScale },
-            },
-            100,
-          ),
-        )
-      } else {
-        tweenGroup.add(
-          new Tweened<Text>(n.label).to(
-            {
-              alpha: n.label.alpha,
-              scale: { x: defaultScale, y: defaultScale },
-            },
-            100,
-          ),
-        )
+        labelAlpha = 1
+        labelScale = activeScale
+      } else if (hoveredNodeId !== null && focusOnHover) {
+        // Dim labels that aren't connected when hovering
+        labelAlpha = n.active ? 1 : 0.2
       }
+
+      tweenGroup.add(
+        new Tweened<Text>(n.label).to(
+          {
+            alpha: labelAlpha,
+            scale: { x: labelScale, y: labelScale },
+          },
+          100,
+        ),
+      )
     }
 
     tweenGroup.getAll().forEach((tw) => tw.start())
@@ -371,16 +377,29 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   for (const n of graphData.nodes) {
     const nodeId = n.id
 
+    // Truncate text at first dash if present
+    const displayText = n.text.includes(' - ') ? n.text.split(' - ')[0].trim() : n.text
+
     const label = new Text({
       interactive: false,
       eventMode: "none",
-      text: n.text,
+      text: displayText,
       alpha: 0,
       anchor: { x: 0.5, y: 1.2 },
       style: {
-        fontSize: fontSize * 15,
-        fill: computedStyleMap["--dark"],
+        fontSize: fontSize * 12,
+        fill: "#ffffff",
         fontFamily: computedStyleMap["--bodyFont"],
+        wordWrap: true,
+        wordWrapWidth: 150,
+        align: 'center',
+        stroke: '#0a0a15',
+        strokeThickness: 4,
+        dropShadow: true,
+        dropShadowColor: '#000000',
+        dropShadowBlur: 4,
+        dropShadowAngle: Math.PI / 6,
+        dropShadowDistance: 2,
       },
       resolution: window.devicePixelRatio * 4,
     })
@@ -491,30 +510,34 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   }
 
   if (enableZoom) {
-    select<HTMLCanvasElement, NodeData>(app.canvas).call(
-      zoom<HTMLCanvasElement, NodeData>()
-        .extent([
-          [0, 0],
-          [width, height],
-        ])
-        .scaleExtent([0.25, 4])
-        .on("zoom", ({ transform }) => {
-          currentTransform = transform
-          stage.scale.set(transform.k, transform.k)
-          stage.position.set(transform.x, transform.y)
+    const zoomBehavior = zoom<HTMLCanvasElement, NodeData>()
+      .extent([
+        [0, 0],
+        [width, height],
+      ])
+      .scaleExtent([0.25, 4])
+      .on("zoom", ({ transform }) => {
+        currentTransform = transform
+        stage.scale.set(transform.k, transform.k)
+        stage.position.set(transform.x, transform.y)
 
-          // zoom adjusts opacity of labels too
-          const scale = transform.k * opacityScale
-          let scaleOpacity = Math.max((scale - 1) / 3.75, 0)
-          const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
+        // zoom adjusts opacity of labels too
+        const scale = transform.k * opacityScale
+        let scaleOpacity = Math.max((scale - 1) / 3.75, 0)
+        const activeNodes = nodeRenderData.filter((n) => n.active).flatMap((n) => n.label)
 
-          for (const label of labelsContainer.children) {
-            if (!activeNodes.includes(label)) {
-              label.alpha = scaleOpacity
-            }
+        for (const label of labelsContainer.children) {
+          if (!activeNodes.includes(label)) {
+            label.alpha = scaleOpacity
           }
-        }),
-    )
+        }
+      })
+
+    select<HTMLCanvasElement, NodeData>(app.canvas).call(zoomBehavior)
+
+    // Set initial zoom
+    const initialZoom = zoomIdentity.translate(width / 2, height / 2).scale(2).translate(-width / 2, -height / 2)
+    select<HTMLCanvasElement, NodeData>(app.canvas).call(zoomBehavior.transform, initialZoom)
   }
 
   function animate(time: number) {

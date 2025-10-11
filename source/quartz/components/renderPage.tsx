@@ -96,9 +96,47 @@ export function renderPage(
               {
                 type: "element",
                 tagName: "a",
-                properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
+                properties: {
+                  href: inner.properties?.href,
+                  class: ["internal", "transclude-src"],
+                  title: i18n(cfg.locale).components.transcludes.linkToOriginal
+                },
                 children: [
-                  { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
+                  {
+                    type: "element",
+                    tagName: "svg",
+                    properties: {
+                      xmlns: "http://www.w3.org/2000/svg",
+                      width: "18",
+                      height: "18",
+                      viewBox: "0 0 24 24",
+                      fill: "none",
+                      stroke: "currentColor",
+                      strokeWidth: "2",
+                      strokeLinecap: "round",
+                      strokeLinejoin: "round"
+                    },
+                    children: [
+                      {
+                        type: "element",
+                        tagName: "path",
+                        properties: { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" },
+                        children: []
+                      },
+                      {
+                        type: "element",
+                        tagName: "polyline",
+                        properties: { points: "15 3 21 3 21 9" },
+                        children: []
+                      },
+                      {
+                        type: "element",
+                        tagName: "line",
+                        properties: { x1: "10", y1: "14", x2: "21", y2: "3" },
+                        children: []
+                      }
+                    ]
+                  }
                 ],
               },
             ]
@@ -139,9 +177,47 @@ export function renderPage(
             {
               type: "element",
               tagName: "a",
-              properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
+              properties: {
+                href: inner.properties?.href,
+                class: ["internal", "transclude-src"],
+                title: i18n(cfg.locale).components.transcludes.linkToOriginal
+              },
               children: [
-                { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
+                {
+                  type: "element",
+                  tagName: "svg",
+                  properties: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "18",
+                    height: "18",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    stroke: "currentColor",
+                    strokeWidth: "2",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                  },
+                  children: [
+                    {
+                      type: "element",
+                      tagName: "path",
+                      properties: { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" },
+                      children: []
+                    },
+                    {
+                      type: "element",
+                      tagName: "polyline",
+                      properties: { points: "15 3 21 3 21 9" },
+                      children: []
+                    },
+                    {
+                      type: "element",
+                      tagName: "line",
+                      properties: { x1: "10", y1: "14", x2: "21", y2: "3" },
+                      children: []
+                    }
+                  ]
+                }
               ],
             },
           ]
@@ -169,9 +245,47 @@ export function renderPage(
             {
               type: "element",
               tagName: "a",
-              properties: { href: inner.properties?.href, class: ["internal", "transclude-src"] },
+              properties: {
+                href: inner.properties?.href,
+                class: ["internal", "transclude-src"],
+                title: i18n(cfg.locale).components.transcludes.linkToOriginal
+              },
               children: [
-                { type: "text", value: i18n(cfg.locale).components.transcludes.linkToOriginal },
+                {
+                  type: "element",
+                  tagName: "svg",
+                  properties: {
+                    xmlns: "http://www.w3.org/2000/svg",
+                    width: "18",
+                    height: "18",
+                    viewBox: "0 0 24 24",
+                    fill: "none",
+                    stroke: "currentColor",
+                    strokeWidth: "2",
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round"
+                  },
+                  children: [
+                    {
+                      type: "element",
+                      tagName: "path",
+                      properties: { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" },
+                      children: []
+                    },
+                    {
+                      type: "element",
+                      tagName: "polyline",
+                      properties: { points: "15 3 21 3 21 9" },
+                      children: []
+                    },
+                    {
+                      type: "element",
+                      tagName: "line",
+                      properties: { x1: "10", y1: "14", x2: "21", y2: "3" },
+                      children: []
+                    }
+                  ]
+                }
               ],
             },
           ]
@@ -219,29 +333,36 @@ export function renderPage(
       <body data-slug={slug}>
         <div id="quartz-root" class="page">
           <Body {...componentData}>
-            {LeftComponent}
-            <div class="center">
-              <div class="page-header">
-                <Header {...componentData}>
-                  {header.map((HeaderComponent) => (
-                    <HeaderComponent {...componentData} />
-                  ))}
-                </Header>
+            {/* Full-width header */}
+            <div class="page-header">
+              <Header {...componentData}>
+                {header.map((HeaderComponent) => (
+                  <HeaderComponent {...componentData} />
+                ))}
+              </Header>
+            </div>
+
+            {/* Main content grid with sidebars */}
+            <div class="page-content">
+              {LeftComponent}
+              <div class="center">
                 <div class="popover-hint">
                   {beforeBody.map((BodyComponent) => (
                     <BodyComponent {...componentData} />
                   ))}
                 </div>
+                <Content {...componentData} />
+                <hr />
+                <div class="page-footer">
+                  {afterBody.map((BodyComponent) => (
+                    <BodyComponent {...componentData} />
+                  ))}
+                </div>
               </div>
-              <Content {...componentData} />
-              <hr />
-              <div class="page-footer">
-                {afterBody.map((BodyComponent) => (
-                  <BodyComponent {...componentData} />
-                ))}
-              </div>
+              {RightComponent}
             </div>
-            {RightComponent}
+
+            {/* Full-width footer */}
             <Footer {...componentData} />
           </Body>
         </div>
