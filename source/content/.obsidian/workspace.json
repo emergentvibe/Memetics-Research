@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "references.md",
+                "file": "art/workshops.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "references"
+              "title": "workshops"
             }
           },
           {
@@ -95,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "QueryToSerialize",
+                "query": "amster",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +116,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -136,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "references.md",
+                "file": "art/workshops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for references"
+              "title": "Backlinks for workshops"
             }
           },
           {
@@ -210,8 +211,9 @@
       "random-note:Open random note": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "5c21f0ebe2069283",
   "lastOpenFiles": [
+    "references.md",
     "garden weather.md",
     "🌰 Seeds (Empty Entries).md",
     "memetic immune system browser extension.md",
@@ -237,7 +239,6 @@
     "the bodhisattvic memecomplex awakening the superorganism.md",
     "inner monologue.md",
     "essay seeds.md",
-    "the future of language.md",
     "Pasted image 20251011175833.png",
     "Pasted image 20251011175811.png",
     "art gallery/Pasted image 20250404171434.png",

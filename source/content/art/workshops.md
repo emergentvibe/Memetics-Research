@@ -5,7 +5,7 @@ I create and facilitate experiences that inspire creativity and collective joy. 
 
 ![[Pasted image 20251011175811.png]]
 
-I've run collaborative painting workshops at various events, Portal, TreeWeek, Yincubator, a public in Amsterdam, and Vibecamp!
+I've run collaborative painting workshops at various events, Portal, TreeWeek, Yincubator, a public park in Amsterdam, and Vibecamp!
 
 My intention is to provide a safe space for people to let go of preconceived ideas of what art is or should look like, what makes art "good" or "valuable". A space where people can freely express their feelings and the surrounding environment via colour and motion. The end result - a vibe landscape of the inner and outer world, capturing the essence of the gathering!
 
