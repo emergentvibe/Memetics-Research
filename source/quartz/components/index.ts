@@ -26,6 +26,7 @@ import PhotoGallery from "./PhotoGallery"
 import GitHubProject from "./GitHubProject"
 import SocialLinks from "./SocialLinks"
 import BuyMeCoffee from "./BuyMeCoffee"
+import Partnership from "./Partnership"
 
 export {
   ArticleTitle,
@@ -56,4 +57,5 @@ export {
   GitHubProject,
   SocialLinks,
   BuyMeCoffee,
+  Partnership,
 }

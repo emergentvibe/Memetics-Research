@@ -2,20 +2,31 @@
 
 .backlinks {
   flex-direction: column;
-  background: rgba(26, 26, 46, 0.6);
+  background: linear-gradient(135deg, rgba(138, 43, 226, 0.1), rgba(0, 243, 255, 0.05));
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(0, 243, 255, 0.2);
+  border: 1px solid rgba(0, 243, 255, 0.3);
   border-radius: 6px;
   padding: 1rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: rgba(0, 243, 255, 0.5);
+    box-shadow: 0 0 12px rgba(0, 243, 255, 0.2);
+  }
 
   & > h3 {
     font-size: 0.9rem;
     margin: 0 0 0.75rem 0;
     font-family: 'JetBrains Mono', monospace;
-    color: var(--tertiary);
-    text-shadow: 0 0 8px rgba(138, 43, 226, 0.4);
+    color: var(--secondary);
+    text-shadow: 0 0 8px rgba(0, 243, 255, 0.5);
     letter-spacing: 0.1em;
     text-transform: uppercase;
+
+    &::before {
+      content: '◈ ';
+      opacity: 0.6;
+    }
   }
 
   & > ul {
@@ -24,8 +35,34 @@
     margin: 0.5rem 0;
 
     & > li {
+      position: relative;
+      padding-left: 1rem;
+      margin-bottom: 0.5rem;
+
+      &::before {
+        content: '→';
+        position: absolute;
+        left: 0;
+        color: var(--secondary);
+        opacity: 0.4;
+        transition: opacity 0.3s ease;
+      }
+
+      &:hover::before {
+        opacity: 1;
+        text-shadow: 0 0 6px rgba(0, 243, 255, 0.6);
+      }
+
       & > a {
         background-color: transparent;
+        color: var(--darkgray);
+        transition: all 0.3s ease;
+        text-decoration: none;
+
+        &:hover {
+          color: var(--secondary);
+          text-shadow: 0 0 6px rgba(0, 243, 255, 0.4);
+        }
       }
     }
   }

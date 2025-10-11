@@ -29,11 +29,12 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [],
   right: [
+    Component.BuyMeCoffee(),
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
     Component.SocialLinks(),
-    Component.BuyMeCoffee(),
+    Component.Partnership(),
   ],
 }
 
@@ -46,9 +47,10 @@ export const defaultListPageLayout: PageLayout = {
   ],
   left: [],
   right: [
+    Component.BuyMeCoffee(),
     Component.Graph(),
     Component.Backlinks(),
     Component.SocialLinks(),
-    Component.BuyMeCoffee(),
+    Component.Partnership(),
   ],
 }

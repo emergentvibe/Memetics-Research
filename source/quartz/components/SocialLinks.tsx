@@ -72,9 +72,18 @@ export default (() => {
   }
 
   .social-links h3 {
-    color: var(--holo-purple);
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    margin: 0 0 0.75rem 0;
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--secondary);
+    text-shadow: 0 0 8px rgba(0, 243, 255, 0.5);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .social-links h3::before {
+    content: '◈ ';
+    opacity: 0.6;
   }
 
   .social-links__container {
@@ -88,13 +97,32 @@ export default (() => {
     align-items: center;
     gap: 0.75rem;
     padding: 0.75rem 1rem;
-    background-color: rgba(0, 255, 255, 0.05);
-    border: 1px solid rgba(0, 255, 255, 0.2);
-    border-radius: 8px;
-    color: var(--holo-cyan);
+    background: linear-gradient(135deg, rgba(138, 43, 226, 0.15), rgba(0, 243, 255, 0.08));
+    border: 1px solid rgba(0, 243, 255, 0.3);
+    border-radius: 6px;
+    color: var(--dark);
     text-decoration: none;
     transition: all 0.3s ease;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
+    font-family: 'JetBrains Mono', monospace;
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .social-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(0, 243, 255, 0.15), transparent);
+    transition: left 0.5s ease;
+  }
+
+  .social-link:hover::before {
+    left: 100%;
   }
 
   .social-link__icon {
@@ -102,6 +130,9 @@ export default (() => {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    filter: drop-shadow(0 0 4px rgba(0, 243, 255, 0.4));
   }
 
   .social-link__icon svg {
@@ -111,13 +142,18 @@ export default (() => {
 
   .social-link__name {
     flex: 1;
+    position: relative;
+    z-index: 1;
   }
 
   .social-link:hover {
-    background-color: rgba(138, 43, 226, 0.1);
-    border-color: var(--holo-purple);
-    transform: translateX(5px);
-    text-shadow: 0 0 8px rgba(138, 43, 226, 0.6);
+    border-color: var(--secondary);
+    box-shadow: 0 0 12px rgba(0, 243, 255, 0.4);
+    transform: translateY(-2px);
+  }
+
+  .social-link:hover .social-link__icon {
+    filter: drop-shadow(0 0 8px rgba(0, 243, 255, 0.6));
   }
   `
 
