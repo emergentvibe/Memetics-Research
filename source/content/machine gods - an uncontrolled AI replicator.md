@@ -1,7 +1,6 @@
 ---
 draft: true
 ---
-
 what's needed for this
 - one LLM with
 	- runs in "freerunning" mode

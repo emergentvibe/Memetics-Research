@@ -23,7 +23,7 @@ Over a year, the network can surface and explore 150 key questions shaped by glo
 
 ## Security & Authentication
 
-To ensure 1 person = 1 vote, the system may use biometric authentication (voice, face, ear, nose, or skin image). Users choose their preferred method. Data is anonymized but fully verified. Email is optional; registration requires a biometric method and password.
+To ensure 1 person = 1 vote, the system may use biometric authentication (voice, face, ear, nose, or skin image). Users choose their preferred method. Data is anonymised but fully verified. Email is optional; registration requires a biometric method and password.
 
 ## Question Format
 - Questions limited to 300–500 characters
@@ -41,7 +41,7 @@ To ensure 1 person = 1 vote, the system may use biometric authentication (voice,
 
 Sample meta-questions:
 
-- What topics should be prioritized?
+- What topics should be prioritised?
 - Should depth of reasoning affect vote weight?
 - How often should questions be revisited?
 - Should voting require participation in a debate?

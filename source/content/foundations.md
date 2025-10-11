@@ -8,16 +8,20 @@
 
 
 backlog
-- [[meme templates]]
+- [[memetics]]
+	- [[antimemes]]
+	- [[meme templates]]
+	- [[memetic retroviruses]]
+	- [[memetic evolution]]
+	- [[memeplexes]]
+	- [[memeology]]
+	- [[replicator interactions]]
 - [[cybernetics]]
 	- [[psycho-cybernetics]]
 		- [[memetic self]]
 		- [[memetic illnesses]]
 	- [[management cybernetics]]
+		- [[a new OS for society]]
 		- [[meme streams]]
 		- [[meme stream interaction]]
-- [[memetic retroviruses]]
-- [[memetic evolution]]
-- [[memeplexes]]
-- [[memeology]]
-- [[replicator interactions]]
+

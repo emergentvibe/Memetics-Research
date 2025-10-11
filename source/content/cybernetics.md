@@ -1,5 +1,3 @@
-[[foundational cybernetic patterns]]
-
 Cybernetics in my view is a field very adjacent to memetics that deals with "commanding", alignment and cooperation of behaviours in an ecosystem. It's about studying the emergent or designed feedback loops in a memetic ecosystem or platform that constraint/guide the memetic evolution.
 
 In greek, a "κυβερνήτης" (kybernḗtēs) is the person who steers a ship. Also "κυβέρνηση" means "government". 

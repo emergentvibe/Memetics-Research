@@ -1,5 +1,4 @@
-### high verbality
-some other memes that i have picked up affecting my behaviour at a higher level are:
+some memes that i have picked up affecting my behaviour at a higher level of verbality:
 - "you can just do things"
 - "how hard can it be?"
 - "WAGMI"

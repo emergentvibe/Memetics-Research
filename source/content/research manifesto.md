@@ -17,5 +17,3 @@ This is an area of research way to big for any single person to explore alone, e
 Memetics is the new frontier of science, and battles will be fought around it. The stakes are high. Memetics can be used for evil and it can be used for good.
 
 Choose good.
-
-`-emergentvibe`

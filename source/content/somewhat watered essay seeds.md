@@ -3,3 +3,4 @@
 - [[the bodhisattvic memecomplex awakening the superorganism]]
 - [[cartography as countermeasure - mapping memetic hyperobjects]]
 - [[ask the internet – consensus]]
+- [On the Memetic Inhibition of Delusion and the Pursuit of Cognitive Liberty]

@@ -1,4 +1,4 @@
-[[source/content/memetic evolution]]
+[[memetic evolution]]
 
 Darwin VS Lamarck
 Punctuated Equilibrium

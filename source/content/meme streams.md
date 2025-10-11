@@ -1,3 +1,3 @@
-- [[human thought]]
+- [[inner monologue]]
 - [[algorithmic meme recommendation streams]] 
 - [[generated meme streams]]

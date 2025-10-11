@@ -78,14 +78,10 @@ here are practical steps individuals can take to participate in this awakening:
 
 it's crucial to recognize that awakening a superorganism carries risks. throughout history, collectivist ideologies have sometimes subsumed individual consciousness, leading to totalitarian outcomes. the [[cartography as countermeasure - mapping memetic hyperobjects|defences]] we're developing aren't tools for enforcing conformity, but the opposite - they're defence systems against memetic possession. by making invisible patterns visible, they enhance individual discernment and sovereignty rather than diminishing it. true collective intelligence requires strong, discerning individuals, not homogenized thinking.
 
-the tools we're building - the [[nooscope]], [[why do open research?|open research frameworks]], [[art manifesto - capturing an emergent vibe - collaborative subconscious painting ritual|collaborative art practices]] - aren't just interesting projects. they're the infrastructure of self-awareness for something much bigger than any of us. they're helping rewrite the rulebook that each human neuron follows.
+the tools we're building - the [[nooscope]], [[why do open research?|open research frameworks]], [[workshops|collaborative art practices]] - aren't just interesting projects. they're the infrastructure of self-awareness for something much bigger than any of us. they're helping rewrite the rulebook that each human neuron follows.
 
 when we participate in collaborative sense-making, practice transparent communication, or create spaces for genuine dialogue across differences, we're not just being "good people" - we're functioning as healthy cells in a developing meta-organism.
 
-and that's a fucking wild responsibility to have.
-
 ---
-
-
 
 *special thanks to [@mudscryer](https://x.com/mudscryer) for their her feedback and contributions around indigenous cultures :)*

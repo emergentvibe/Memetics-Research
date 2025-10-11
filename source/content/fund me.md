@@ -1,1 +1,0 @@
-um - still working on this proposal, but [let's talk](https://x.com/emergentvibe)!

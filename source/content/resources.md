@@ -1,6 +1,5 @@
 ##### books:
 - [The Meme Machine - Wikipedia](https://en.wikipedia.org/wiki/The_Meme_Machine)|
-
 ##### talks
 - [What Darwin won't tell you about evolution - with Jonathan Pettitt - YouTube](https://www.youtube.com/watch?v=7dzoGb-jcW4)
 - [Susan Blackmore: Genes, Memes and Temes](https://iai.tv/video/genes-memes-and-temes)
