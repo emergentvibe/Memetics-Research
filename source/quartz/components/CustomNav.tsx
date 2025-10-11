@@ -74,6 +74,7 @@ export default (() => {
     .custom-nav {
       display: flex;
       align-items: center;
+      justify-content: center;
       gap: 2rem;
       padding: 1rem 0;
       width: 71%;
@@ -83,6 +84,9 @@ export default (() => {
       font-size: 1.25rem;
       font-weight: 700;
       letter-spacing: 0.15em;
+      white-space: nowrap;
+      width: auto;
+      min-width: max-content;
     }
 
     .custom-nav__logo a {
@@ -136,7 +140,10 @@ export default (() => {
       transition: all 0.3s ease;
       border: 1px solid transparent;
       border-radius: 4px;
-    }
+      white-space: nowrap;
+      width: auto;
+      min-width: max-content;
+      }
 
     .custom-nav__link:hover,
     .custom-nav__link.active {
