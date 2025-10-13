@@ -24,6 +24,11 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
   const options: ContentMetaOptions = { ...defaultOptions, ...opts }
 
   function ContentMetadata({ cfg, fileData, displayClass }: QuartzComponentProps) {
+    // Hide on software page
+    if (fileData.slug === "software") {
+      return null
+    }
+
     const text = fileData.text
 
     if (text) {

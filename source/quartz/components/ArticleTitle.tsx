@@ -2,6 +2,11 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 import { classNames } from "../util/lang"
 
 const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
+  // Don't render on homepage or software page
+  if (fileData.slug === "index" || fileData.slug === "software") {
+    return null
+  }
+
   const title = fileData.frontmatter?.title
   if (title) {
     return <h1 class={classNames(displayClass, "article-title")}>{title}</h1>

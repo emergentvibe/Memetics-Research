@@ -64,6 +64,11 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       return <></>
     }
 
+    // Hide crumbs on software page
+    if (fileData.slug === "software") {
+      return <></>
+    }
+
     // Format entry for root element
     const firstEntry = formatCrumb(options.rootName, fileData.slug!, "/" as SimpleSlug)
     const crumbs: CrumbData[] = [firstEntry]

@@ -105,7 +105,6 @@ export default (() => {
     transition: all 0.3s ease;
     font-size: 0.85rem;
     font-family: 'JetBrains Mono', monospace;
-    backdrop-filter: blur(10px);
     position: relative;
     overflow: hidden;
   }

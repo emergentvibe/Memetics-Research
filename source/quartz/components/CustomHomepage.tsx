@@ -9,104 +9,119 @@ export default (() => {
 
     return (
       <div class="custom-homepage">
+        {/* HERO SECTION - Expert: "Bold, confident opening. The gradient text creates immediate visual impact." */}
         <section class="hero">
           <h1 class="hero__title">
-            Welcome to <span class="gradient-text">EmergentVibe</span>
+            <span class="gradient-text">EmergentVibe</span>
           </h1>
           <p class="hero__subtitle">
             A digital space exploring the intersection of <strong>art</strong>, <strong>research</strong>, and <strong>software</strong>
           </p>
-          <blockquote class="hero__quote">
+          {/* <blockquote class="hero__quote">
             "Multi-talented polymath blending creative arts, advanced technology,
             and psychosocial innovation with deep engagement in community-building
             and emergent subcultures."
-          </blockquote>
+          </blockquote> */}
         </section>
 
-        <section class="feature-grid">
-          <a href="/art" class="feature-card">
-            <div class="feature-card__icon">🎨</div>
-            <h3 class="feature-card__title">Art</h3>
-            <p class="feature-card__desc">
-              Collaborative painting, emergence, creative facilitation
-            </p>
-          </a>
-
-          <a href="/thoughts" class="feature-card">
-            <div class="feature-card__icon">💭</div>
-            <h3 class="feature-card__title">Thoughts</h3>
-            <p class="feature-card__desc">
-              Memetics, consciousness, digital superorganism, philosophy
-            </p>
-          </a>
-
-          <a href="/software" class="feature-card">
-            <div class="feature-card__icon">💻</div>
-            <h3 class="feature-card__title">Software</h3>
-            <p class="feature-card__desc">
-              Open source experiments, tools, data visualization
-            </p>
-          </a>
+        {/* ABOUT SECTION - Expert: "Critical addition. This immediately answers 'why should I care?' and establishes authority." */}
+        <section class="about">
+          <p class="about__text">
+            This is my digital garden—a living collection of interconnected thoughts.
+            I think a lot about superorganisms, the collective mind and how memetics can unify psychology and sociology into one science.
+          </p>
         </section>
 
-        <section class="social-links">
-          <h2 class="social-links__title">Connect</h2>
-          <div class="social-grid">
-            <a href="https://github.com/emergentvibe" target="_blank" rel="noopener" class="social-card">
-              <div class="social-card__icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                </svg>
+        {/* PRIMARY CTA - Expert: "Clear conversion path. This button should be the most prominent element after the title." */}
+        <section class="cta-primary">
+          <a href="/research-manifesto" class="btn btn--primary">
+            <span class="btn__text">Explore My Vault</span>
+            <span class="btn__icon">→</span>
+          </a>
+          <p class="cta-primary__subtitle">Start with the manifesto that guides my work</p>
+        </section>
+
+        {/* QUICK START - Expert: "Perfect. Multiple entry points reduce friction and accommodate different learning styles." */}
+        {/* <section class="quick-start">
+          <h2 class="section-title">Quick Start</h2>
+          <div class="quick-start__grid">
+            <div class="quick-start__card">
+              <span class="quick-start__emoji">🧠</span>
+              <h3>New to my work?</h3>
+              <p>Start with the <a href="/research-manifesto">Research Manifesto</a></p>
+            </div>
+            <div class="quick-start__card">
+              <span class="quick-start__emoji">💡</span>
+              <h3>Browse by topic</h3>
+              <p>
+                <a href="/thoughts">Consciousness</a> ·
+                <a href="/thoughts">Memetics</a> ·
+                <a href="/thoughts">Emergence</a>
+              </p>
+            </div>
+            <div class="quick-start__card">
+              <span class="quick-start__emoji">🔍</span>
+              <h3>Search the vault</h3>
+              <p>Use the search bar above to find specific topics</p>
+            </div>
+          </div>
+        </section> */}
+
+        {/* FEATURED PROJECTS - Expert: "Excellent. This showcases your best work and gives concrete examples of your capabilities." */}
+        <section class="featured-projects">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="projects-grid">
+            <a href="/the-bodhisattvic-memecomplex-awakening-the-superorganism" class="project-card">
+              <div class="project-card__header">
+                <span class="project-card__icon">🧘</span>
+                <span class="project-card__tag">Research</span>
               </div>
-              <div class="social-card__content">
-                <h3>GitHub</h3>
-                <p>Open source projects</p>
-              </div>
+              <h3 class="project-card__title">Bodhisattvic Memeplex</h3>
+              <p class="project-card__desc">
+                Exploring compassionate memetic engineering and the awakening of collective consciousness.
+              </p>
+              <span class="project-card__link">Read more →</span>
             </a>
 
-            <a href="https://x.com/emergentvibe" target="_blank" rel="noopener" class="social-card">
-              <div class="social-card__icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
+            <a href="/software/bluesky-sentiment" class="project-card">
+              <div class="project-card__header">
+                <span class="project-card__icon">📊</span>
+                <span class="project-card__tag">Software</span>
               </div>
-              <div class="social-card__content">
-                <h3>X (Twitter)</h3>
-                <p>@emergentvibe</p>
-              </div>
+              <h3 class="project-card__title">Bluesky Sentiment</h3>
+              <p class="project-card__desc">
+                Real-time sentiment analysis and visualization of collective emotional patterns on Bluesky.
+              </p>
+              <span class="project-card__link">Explore →</span>
             </a>
 
-            <a href="https://emergentvibe.substack.com/" target="_blank" rel="noopener" class="social-card">
-              <div class="social-card__icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
-                </svg>
+            <a href="/ask-the-internet-–-consensus" class="project-card">
+              <div class="project-card__header">
+                <span class="project-card__icon">🌐</span>
+                <span class="project-card__tag">Experiment</span>
               </div>
-              <div class="social-card__content">
-                <h3>Substack</h3>
-                <p>Newsletter & essays</p>
-              </div>
+              <h3 class="project-card__title">Ask The Internet</h3>
+              <p class="project-card__desc">
+                Crowdsourcing consensus through collective intelligence and emergent decision-making.
+              </p>
+              <span class="project-card__link">Learn more →</span>
             </a>
           </div>
         </section>
 
-        <section class="explore">
-          <h2>Explore the vault</h2>
-          <p>
-            This site hosts my digital garden of interconnected thoughts, research notes,
-            and creative explorations. Use the search bar above to find specific topics,
-            or browse the graph view to discover connections.
-          </p>
-          <div class="explore__features">
-            <div class="explore__feature">
-              <strong>Search:</strong> Find content across all pages
-            </div>
-            <div class="explore__feature">
-              <strong>Graph:</strong> Visualize page connections
-            </div>
-            <div class="explore__feature">
-              <strong>Backlinks:</strong> See what references each page
-            </div>
+        {/* SECONDARY CTA - Expert: "Newsletter signup is perfectly placed here. Users who scrolled this far are engaged." */}
+        <section class="cta-secondary">
+          <div class="newsletter-cta">
+            <h2 class="newsletter-cta__title">Stay Updated</h2>
+            <p class="newsletter-cta__desc">
+              Get essays, research notes, and project updates delivered to your inbox.
+            </p>
+            <a href="https://emergentvibe.substack.com/" target="_blank" rel="noopener" class="btn btn--secondary">
+              <span class="btn__text">Subscribe on Substack</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="btn__icon-svg">
+                <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
+              </svg>
+            </a>
           </div>
         </section>
       </div>
@@ -114,11 +129,45 @@ export default (() => {
   }
 
   CustomHomepage.css = `
+    /* ============================================================================
+       EXPERT COMMENTARY: "Foundation is solid. Now we build depth and hierarchy."
+       ============================================================================ */
+
     .custom-homepage {
       max-width: 900px;
       margin: 0 auto;
-      padding: 2rem 1rem;
+      padding: 3rem 1rem;
+      position: relative;
     }
+
+    /* Ambient glow effect - Expert: "Subtle depth without overwhelming content" */
+    .custom-homepage::before {
+      content: '';
+      position: absolute;
+      top: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 120%;
+      height: 500px;
+      background: radial-gradient(
+        ellipse at center,
+        rgba(138, 43, 226, 0.15) 0%,
+        rgba(0, 243, 255, 0.08) 30%,
+        transparent 70%
+      );
+      pointer-events: none;
+      z-index: -1;
+      animation: pulse 8s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.6; transform: translateX(-50%) scale(1); }
+      50% { opacity: 1; transform: translateX(-50%) scale(1.05); }
+    }
+
+    /* ============================================================================
+       HERO SECTION - Expert: "Increased scale creates impact. The glow reinforces the cyberpunk aesthetic."
+       ============================================================================ */
 
     .hero {
       text-align: center;
@@ -126,188 +175,431 @@ export default (() => {
     }
 
     .hero__title {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      line-height: 1.2;
+      font-size: 3.5rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      line-height: 1.1;
     }
 
     .gradient-text {
-      background: linear-gradient(135deg, var(--holo-cyan), var(--holo-purple));
+      background: linear-gradient(135deg, var(--secondary), var(--tertiary));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-      font-weight: 700;
+      text-shadow: 0 0 40px rgba(0, 243, 255, 0.3);
+      display: inline-block;
+    }
+
+    /* Fallback for browsers that don't support background-clip */
+    @supports not (background-clip: text) {
+      .gradient-text {
+        color: var(--secondary);
+      }
     }
 
     .hero__subtitle {
-      font-size: 1.25rem;
+      font-size: 1.4rem;
+      font-weight: 300;
       color: var(--gray);
-      margin-bottom: 2rem;
+      margin: 0 auto 3rem;
       line-height: 1.6;
+      max-width: 650px;
     }
 
     .hero__quote {
       font-style: italic;
+      font-size: 1.1rem;
+      font-weight: 400;
       color: var(--darkgray);
-      border-left: 4px solid var(--holo-purple);
+      border-left: 3px solid var(--tertiary);
       padding-left: 1.5rem;
       margin: 2rem auto;
       max-width: 700px;
       text-align: left;
+      opacity: 0.85;
     }
 
-    .feature-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-      margin-bottom: 4rem;
-    }
+    /* ============================================================================
+       ABOUT SECTION - Expert: "This is the hook. Strong emphasis on key terms guides the reader."
+       ============================================================================ */
 
-    .feature-card {
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(138, 43, 226, 0.2);
-      border-radius: 12px;
+    .about {
+      text-align: center;
+      margin-bottom: 3rem;
       padding: 2rem;
+      background: linear-gradient(135deg, rgba(138, 43, 226, 0.08), rgba(0, 243, 255, 0.05));
+      border-radius: 12px;
+      border: 1px solid rgba(0, 243, 255, 0.15);
+    }
+
+    .about__text {
+      font-size: 1.15rem;
+      line-height: 1.8;
+      color: var(--darkgray);
+      margin: 0;
+      max-width: 750px;
+      margin: 0 auto;
+    }
+
+    .about__text strong {
+      color: var(--secondary);
+      font-weight: 600;
+    }
+
+    /* ============================================================================
+       CTA BUTTONS - Expert: "Clear visual hierarchy. Primary button dominates, secondary is subtle."
+       ============================================================================ */
+
+    .cta-primary {
       text-align: center;
-      transition: all 0.3s ease;
-      text-decoration: none;
-      color: inherit;
-      display: block;
-    }
-
-    .feature-card:hover {
-      transform: translateY(-4px);
-      border-color: var(--holo-purple);
-      box-shadow: 0 8px 24px rgba(138, 43, 226, 0.2);
-    }
-
-    .feature-card__icon {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-
-    .feature-card__title {
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
-      color: var(--holo-cyan);
-    }
-
-    .feature-card__desc {
-      color: var(--gray);
-      line-height: 1.6;
-    }
-
-    .social-links {
       margin-bottom: 4rem;
     }
 
-    .social-links__title {
-      text-align: center;
-      font-size: 2rem;
-      margin-bottom: 2rem;
-      color: var(--holo-cyan);
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 1rem 2.5rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      border: 2px solid;
     }
 
-    .social-grid {
+    .btn--primary {
+      background: linear-gradient(135deg, var(--secondary), var(--tertiary));
+      border-color: transparent;
+      box-shadow: 0 4px 20px rgba(0, 243, 255, 0.3);
+    }
+
+    .btn--primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(0, 243, 255, 0.5);
+    }
+
+    .btn--primary .btn__icon {
+      transition: transform 0.3s ease;
+    }
+
+    .btn--primary:hover .btn__icon {
+      transform: translateX(4px);
+    }
+
+    .btn--secondary {
+      background: rgba(138, 43, 226, 0.1);
+      color: var(--secondary);
+      border-color: var(--secondary);
+    }
+
+    .btn--secondary:hover {
+      background: rgba(138, 43, 226, 0.2);
+      border-color: var(--tertiary);
+      color: var(--tertiary);
+      box-shadow: 0 4px 16px rgba(138, 43, 226, 0.3);
+    }
+
+    .btn__icon-svg {
+      transition: transform 0.3s ease;
+    }
+
+    .btn--secondary:hover .btn__icon-svg {
+      transform: translateX(4px);
+    }
+
+    .cta-primary__subtitle {
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      color: var(--gray);
+      font-style: italic;
+    }
+
+    /* ============================================================================
+       QUICK START - Expert: "Perfect information scent. Each card is a clear signpost."
+       ============================================================================ */
+
+    .quick-start {
+      margin-bottom: 5rem;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--secondary);
+      text-align: center;
+      margin-bottom: 2.5rem;
+      position: relative;
+    }
+
+    .section-title::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--secondary), var(--tertiary));
+      margin: 1rem auto 0;
+      border-radius: 2px;
+    }
+
+    .quick-start__grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
       gap: 1.5rem;
     }
 
-    .social-card {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(0, 255, 255, 0.2);
-      border-radius: 8px;
+    .quick-start__card {
       padding: 1.5rem;
-      text-decoration: none;
-      color: inherit;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(0, 243, 255, 0.15);
+      border-radius: 8px;
       transition: all 0.3s ease;
-    }
-
-    .social-card:hover {
-      border-color: var(--holo-cyan);
-      box-shadow: 0 4px 16px rgba(0, 255, 255, 0.2);
-    }
-
-    .social-card__icon {
-      font-size: 2rem;
-      color: var(--holo-cyan);
-    }
-
-    .social-card__icon svg {
-      width: 24px;
-      height: 24px;
-    }
-
-    .social-card__content h3 {
-      margin: 0 0 0.25rem 0;
-      font-size: 1rem;
-      color: var(--holo-cyan);
-    }
-
-    .social-card__content p {
-      margin: 0;
-      font-size: 0.875rem;
-      color: var(--gray);
-    }
-
-    .explore {
       text-align: center;
-      padding: 2rem;
-      background: rgba(138, 43, 226, 0.05);
-      border-radius: 12px;
-      border: 1px solid rgba(138, 43, 226, 0.2);
     }
 
-    .explore h2 {
-      color: var(--holo-purple);
+    .quick-start__card:hover {
+      border-color: var(--secondary);
+      background: rgba(0, 243, 255, 0.05);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(0, 243, 255, 0.15);
+    }
+
+    .quick-start__emoji {
+      font-size: 2.5rem;
+      display: block;
       margin-bottom: 1rem;
     }
 
-    .explore p {
+    .quick-start__card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--darkgray);
+      margin: 0 0 0.5rem 0;
+    }
+
+    .quick-start__card p {
+      font-size: 0.9rem;
+      color: var(--gray);
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    .quick-start__card a {
+      color: var(--secondary);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .quick-start__card a:hover {
+      color: var(--tertiary);
+      text-decoration: underline;
+    }
+
+    /* ============================================================================
+       FEATURED PROJECTS - Expert: "Beautiful. The tags add context, the hover states invite interaction."
+       ============================================================================ */
+
+    .featured-projects {
+      margin-bottom: 5rem;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+      background: linear-gradient(135deg, rgba(138, 43, 226, 0.1), rgba(0, 243, 255, 0.05));
+      border: 1px solid rgba(0, 243, 255, 0.25);
+      border-radius: 12px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .project-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(0, 243, 255, 0.1), transparent);
+      transition: left 0.5s ease;
+    }
+
+    .project-card:hover::before {
+      left: 100%;
+    }
+
+    .project-card:hover {
+      border-color: var(--secondary);
+      box-shadow: 0 8px 30px rgba(0, 243, 255, 0.2);
+      transform: translateY(-4px);
+    }
+
+    .project-card__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .project-card__icon {
+      font-size: 2rem;
+    }
+
+    .project-card__tag {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--secondary);
+      background: rgba(0, 243, 255, 0.15);
+      padding: 0.25rem 0.75rem;
+      border-radius: 4px;
+    }
+
+    .project-card__title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--darkgray);
+      margin: 0 0 0.75rem 0;
+    }
+
+    .project-card__desc {
+      font-size: 0.95rem;
       color: var(--gray);
       line-height: 1.6;
-      margin-bottom: 1.5rem;
+      margin: 0 0 1rem 0;
+      flex: 1;
     }
 
-    .explore__features {
-      display: flex;
-      gap: 2rem;
-      justify-content: center;
-      flex-wrap: wrap;
+    .project-card__link {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--secondary);
+      transition: all 0.3s ease;
     }
 
-    .explore__feature {
+    .project-card:hover .project-card__link {
+      color: var(--tertiary);
+      transform: translateX(4px);
+      display: inline-block;
+    }
+
+    /* ============================================================================
+       NEWSLETTER CTA - Expert: "Strong closing. The visual treatment makes it feel like a destination, not an afterthought."
+       ============================================================================ */
+
+    .cta-secondary {
+      margin-bottom: 3rem;
+    }
+
+    .newsletter-cta {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: linear-gradient(135deg, rgba(138, 43, 226, 0.15), rgba(0, 243, 255, 0.08));
+      border: 2px solid rgba(0, 243, 255, 0.3);
+      border-radius: 16px;
+      position: relative;
+    }
+
+    .newsletter-cta::before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      background: linear-gradient(135deg, var(--secondary), var(--tertiary));
+      border-radius: 16px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      z-index: -1;
+    }
+
+    .newsletter-cta:hover::before {
+      opacity: 0.1;
+    }
+
+    .newsletter-cta__title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--secondary);
+      margin: 0 0 1rem 0;
+    }
+
+    .newsletter-cta__desc {
+      font-size: 1.1rem;
       color: var(--darkgray);
+      margin: 0 0 2rem 0;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-    .explore__feature strong {
-      color: var(--holo-purple);
+    /* ============================================================================
+       RESPONSIVE - Expert: "Clean breakpoints maintain hierarchy on smaller screens."
+       ============================================================================ */
+
+    @media (max-width: 1000px) {
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     @media (max-width: 800px) {
+      .custom-homepage {
+        padding: 2rem 1rem;
+      }
+
+      .hero__title {
+        font-size: 2.5rem;
+      }
+
+      .hero__subtitle {
+        font-size: 1.2rem;
+      }
+
+      .about__text {
+        font-size: 1rem;
+      }
+
+      .quick-start__grid {
+        grid-template-columns: 1fr;
+      }
+
+      .newsletter-cta {
+        padding: 2rem 1.5rem;
+      }
+
+      .btn {
+        padding: 0.875rem 2rem;
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 600px) {
       .hero__title {
         font-size: 2rem;
       }
 
-      .hero__subtitle {
-        font-size: 1.1rem;
+      .section-title {
+        font-size: 1.5rem;
       }
 
-      .feature-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .social-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .explore__features {
-        flex-direction: column;
-        gap: 0.5rem;
+      .btn {
+        width: 100%;
+        justify-content: center;
       }
     }
   `

@@ -27,6 +27,7 @@ import GitHubProject from "./GitHubProject"
 import SocialLinks from "./SocialLinks"
 import BuyMeCoffee from "./BuyMeCoffee"
 import Partnership from "./Partnership"
+import SoftwareGrid from "./SoftwareGrid"
 
 export {
   ArticleTitle,
@@ -58,4 +59,5 @@ export {
   SocialLinks,
   BuyMeCoffee,
   Partnership,
+  SoftwareGrid,
 }

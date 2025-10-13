@@ -393,11 +393,15 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     previewInner.append(...innerDiv)
     preview.replaceChildren(previewInner)
 
-    // scroll to longest
+    // scroll to longest highlight within preview container only
     const highlights = [...preview.querySelectorAll(".highlight")].sort(
       (a, b) => b.innerHTML.length - a.innerHTML.length,
     )
-    highlights[0]?.scrollIntoView({ block: "start" })
+    if (highlights[0]) {
+      const highlightElement = highlights[0] as HTMLElement
+      const scrollOffset = highlightElement.offsetTop - preview.offsetTop
+      preview.scrollTo({ top: scrollOffset, behavior: "instant" })
+    }
   }
 
   async function onType(e: HTMLElementEventMap["input"]) {

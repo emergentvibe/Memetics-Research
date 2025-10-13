@@ -363,7 +363,9 @@ export function renderPage(
             </div>
 
             {/* Full-width footer */}
-            <Footer {...componentData} />
+            <div class="page-footer">
+              <Footer {...componentData} />
+            </div>
           </Body>
         </div>
       </body>

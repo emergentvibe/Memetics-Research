@@ -28,6 +28,11 @@ body {
     radial-gradient(circle at 80% 80%, rgba(0, 243, 255, 0.05) 0%, transparent 50%);
 }
 
+// Remove section background to let gradient show through
+section {
+  background-color: transparent !important;
+}
+
 // ============================================================================
 // RESET BASE GRID
 // ============================================================================
@@ -140,11 +145,33 @@ body {
   }
 }
 
-// Footer
-.page > #quartz-body > footer {
-  max-width: 1500px;
+// Hide sidebar on homepage and software page
+body[data-slug="index"] .page > #quartz-body .sidebar.right,
+body[data-slug="software"] .page > #quartz-body .sidebar.right {
+  display: none !important;
+}
+
+// Expand content width on homepage and software page when sidebar is hidden
+body[data-slug="index"] .page > #quartz-body .center,
+body[data-slug="software"] .page > #quartz-body .center {
+  max-width: 900px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+}
+
+// Footer wrapper - matches page-content structure
+.page > #quartz-body > .page-footer {
+  display: flex;
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  align-items: flex-start;
+  justify-content: center;
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
 }
 
 // Mobile header
