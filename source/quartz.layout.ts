@@ -21,6 +21,8 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
+    Component.CustomHomepage(), // Custom homepage (only renders on index)
+    Component.SoftwareGrid(), // Software grid (only renders on software page)
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
@@ -34,7 +36,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
     Component.SocialLinks(),
-    Component.Partnership(),
   ],
 }
 
@@ -51,6 +52,5 @@ export const defaultListPageLayout: PageLayout = {
     Component.Graph(),
     Component.Backlinks(),
     Component.SocialLinks(),
-    Component.Partnership(),
   ],
 }

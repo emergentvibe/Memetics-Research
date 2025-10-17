@@ -15,7 +15,7 @@ export default (() => {
       },
       {
         title: "THOUGHTS",
-        url: "/thoughts",
+        url: "/map-of-content",
         children: [
           { title: "Research Manifesto", url: "/research-manifesto" },
           { title: "Bodhisattvic Memeplex", url: "/the-bodhisattvic-memecomplex-awakening-the-superorganism" },

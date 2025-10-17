@@ -1,0 +1,1 @@
+I'm setting up this digital garden as an attempt to satisfy my own curiosity and learn in public.
