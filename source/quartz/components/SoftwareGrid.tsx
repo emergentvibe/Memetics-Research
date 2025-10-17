@@ -6,7 +6,6 @@ interface SoftwareProject {
   liveUrl: string
   githubUrl?: string
   screenshot?: string
-  tags: string[]
 }
 
 export default (() => {
@@ -21,40 +20,31 @@ export default (() => {
         name: "Vibe Semantic Recommendations",
         description: "Semantic search and recommendation engine for discovering content based on meaning and context rather than keywords.",
         liveUrl: "https://vibe-recommendations.emergentvibe.com/",
-        screenshot: "/software-screenshots/vibe-recommendations.png",
-        tags: ["AI", "Semantic Search", "Recommendations"]
+        screenshot: "/software-screenshots/vibe-recommendations.png"
       },
       {
         name: "Bluesky Sentiment Dashboard",
         description: "Real-time sentiment analysis and visualization of collective emotional patterns across the Bluesky social network.",
         liveUrl: "https://github.com/emergentvibe/bluesky-sentiment-analysis",
-        screenshot: "/software-screenshots/bluesky-sentiment.png",
-        tags: ["Data Viz", "Sentiment Analysis", "Social"]
+        screenshot: "/software-screenshots/bluesky-sentiment.png"
       },
       {
         name: "Twitter Discourse Analyzer",
         description: "Cluster analysis and visualization of Twitter reply networks to map conversation structures and discourse patterns.",
         liveUrl: "https://twitter-replies-cluster.fly.dev/",
-        screenshot: "/software-screenshots/twitter-discourse.png",
-        tags: ["Network Analysis", "Visualization", "Social"]
+        screenshot: "/software-screenshots/twitter-discourse.png"
       },
       {
         name: "Film Night Decider",
         description: "Collaborative decision-making tool for groups to democratically choose films using ranked-choice voting.",
         liveUrl: "https://film-night.fly.dev/",
-        screenshot: "/software-screenshots/film-night.png",
-        tags: ["Collaboration", "Decision Making", "Fun"]
+        screenshot: "/software-screenshots/film-night.png"
       }
     ]
 
     return (
       <div class="software-grid">
-        <div class="software-grid__intro">
-          <h2 class="software-grid__title">Published Apps</h2>
-          <p class="software-grid__subtitle">
-            Experiments to understand social media, enable the semantic web, and enable collective intelligence and sensemaking.
-          </p>
-        </div>
+
 
         <div class="software-grid__cards">
           {projects.map((project) => (
@@ -92,12 +82,6 @@ export default (() => {
                 </div>
 
                 <p class="software-card__desc">{project.description}</p>
-
-                <div class="software-card__tags">
-                  {project.tags.map((tag) => (
-                    <span class="software-card__tag">{tag}</span>
-                  ))}
-                </div>
 
                 <div class="software-card__footer">
                   <span class="software-card__link">
