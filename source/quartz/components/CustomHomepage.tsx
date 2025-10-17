@@ -15,7 +15,7 @@ export default (() => {
             <span class="gradient-text">EmergentVibe</span>
           </h1>
           <p class="hero__subtitle">
-            A digital space exploring the intersection of <strong>art</strong>, <strong>research</strong>, and <strong>software</strong>
+            Exploring the intersection of <strong>art</strong>, <strong>research</strong>, and <strong>software</strong>
           </p>
           {/* <blockquote class="hero__quote">
             "Multi-talented polymath blending creative arts, advanced technology,
@@ -74,7 +74,7 @@ export default (() => {
             <a href="/the-bodhisattvic-memecomplex-awakening-the-superorganism" class="project-card">
               <div class="project-card__header">
                 <span class="project-card__icon">🧘</span>
-                <span class="project-card__tag">Research</span>
+                <span class="project-card__tag">writing</span>
               </div>
               <h3 class="project-card__title">Bodhisattvic Memeplex</h3>
               <p class="project-card__desc">
@@ -95,16 +95,16 @@ export default (() => {
               <span class="project-card__link">Explore →</span>
             </a>
 
-            <a href="/ask-the-internet-–-consensus" class="project-card">
+            <a href="https://twitter-replies-cluster.fly.dev/" target="_blank" rel="noopener noreferrer" class="project-card">
               <div class="project-card__header">
-                <span class="project-card__icon">🌐</span>
-                <span class="project-card__tag">Experiment</span>
+                <span class="project-card__icon">💬</span>
+                <span class="project-card__tag">Software</span>
               </div>
-              <h3 class="project-card__title">Ask The Internet</h3>
+              <h3 class="project-card__title">Twitter Discourse Analyzer</h3>
               <p class="project-card__desc">
-                Crowdsourcing consensus through collective intelligence and emergent decision-making.
+                Cluster analysis and visualization of Twitter replies using AI.
               </p>
-              <span class="project-card__link">Learn more →</span>
+              <span class="project-card__link">Explore →</span>
             </a>
           </div>
         </section>

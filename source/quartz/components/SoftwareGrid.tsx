@@ -32,20 +32,6 @@ export default (() => {
         tags: ["Data Viz", "Sentiment Analysis", "Social"]
       },
       {
-        name: "Emotion Explorer",
-        description: "Interactive tool for exploring and mapping emotional states and their relationships in multidimensional space.",
-        liveUrl: "https://emotion-explorer.vercel.app/",
-        screenshot: "/screenshots/emotion-explorer.png",
-        tags: ["Visualization", "Psychology", "Interactive"]
-      },
-      {
-        name: "Bluesky Memetics Feed",
-        description: "Custom feed algorithm for surfacing memetic patterns and viral idea propagation on Bluesky.",
-        liveUrl: "https://bsky.app/profile/emergentvibe.bsky.social/feed/memetics",
-        screenshot: "/screenshots/memetics-feed.png",
-        tags: ["Memetics", "Algorithm", "Social"]
-      },
-      {
         name: "Twitter Discourse Analyzer",
         description: "Cluster analysis and visualization of Twitter reply networks to map conversation structures and discourse patterns.",
         liveUrl: "https://twitter-replies-cluster.fly.dev/",
@@ -66,8 +52,7 @@ export default (() => {
         <div class="software-grid__intro">
           <h2 class="software-grid__title">Published Apps</h2>
           <p class="software-grid__subtitle">
-            Experiments in memetics, collective intelligence, and emergent behavior.
-            Each project explores how ideas spread, evolve, and shape our digital superorganism.
+            Experiments to understand social media, enable the semantic web, and enable collective intelligence and sensemaking.
           </p>
         </div>
 
