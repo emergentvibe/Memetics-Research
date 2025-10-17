@@ -21,28 +21,28 @@ export default (() => {
         name: "Vibe Semantic Recommendations",
         description: "Semantic search and recommendation engine for discovering content based on meaning and context rather than keywords.",
         liveUrl: "https://vibe-recommendations.emergentvibe.com/",
-        screenshot: "/screenshots/vibe-recommendations.png",
+        screenshot: "/software-screenshots/vibe-recommendations.png",
         tags: ["AI", "Semantic Search", "Recommendations"]
       },
       {
         name: "Bluesky Sentiment Dashboard",
         description: "Real-time sentiment analysis and visualization of collective emotional patterns across the Bluesky social network.",
         liveUrl: "https://github.com/emergentvibe/bluesky-sentiment-analysis",
-        screenshot: "/screenshots/bluesky-sentiment.png",
+        screenshot: "/software-screenshots/bluesky-sentiment.png",
         tags: ["Data Viz", "Sentiment Analysis", "Social"]
       },
       {
         name: "Twitter Discourse Analyzer",
         description: "Cluster analysis and visualization of Twitter reply networks to map conversation structures and discourse patterns.",
         liveUrl: "https://twitter-replies-cluster.fly.dev/",
-        screenshot: "/screenshots/twitter-discourse.png",
+        screenshot: "/software-screenshots/twitter-discourse.png",
         tags: ["Network Analysis", "Visualization", "Social"]
       },
       {
         name: "Film Night Decider",
         description: "Collaborative decision-making tool for groups to democratically choose films using ranked-choice voting.",
         liveUrl: "https://film-night.fly.dev/",
-        screenshot: "/screenshots/film-night.png",
+        screenshot: "/software-screenshots/film-night.png",
         tags: ["Collaboration", "Decision Making", "Fun"]
       }
     ]
