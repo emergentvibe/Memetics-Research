@@ -4,7 +4,7 @@
 		- [[non-coding memes - memetic expression regulators]]
 			- [[memetic regulator classifications]]
 	- meme properties
-		- [[verbality]]
+		- [[articulability]]
 
 
 backlog

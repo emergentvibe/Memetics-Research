@@ -32,3 +32,11 @@ why doesn't this happen more often? because memetic extinction events are rare. 
 when a bear stands in exactly the right position in a river, with precisely the right stance, we're witnessing the combined result of genetics and memetics - ancient instincts refined through cultural transmission, with the most essential patterns potentially encoded into the genome through evolutionary time.
 
 the genetic template and memetic refinement exist in constant dialogue, co-creating the behaviours we observe across species - including our own.
+
+---
+
+I discovered that what I am describing has already been described - see [Baldwin effect](https://en.wikipedia.org/wiki/Baldwin_effect)
+
+## references
+- [Baldwin effect](https://en.wikipedia.org/wiki/Baldwin_effect) #reference 
+- [Evolutionary significance of phenotypic accommodation in novel environments: an empirical test of the Baldwin effect - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC2666683/) #reference 

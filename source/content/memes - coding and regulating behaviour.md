@@ -9,4 +9,4 @@ there are two kinds of memes. behaviour coding memes and non-coding memes.
 
 ![[non-coding memes - memetic expression regulators]]
 # meme properties
-![[verbality]]
+![[articulability]]

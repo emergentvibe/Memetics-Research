@@ -1,0 +1,2 @@
+- [[research manifesto]]
+- [[research goals]]

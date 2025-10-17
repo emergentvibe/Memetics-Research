@@ -1,2 +1,0 @@
-- [Manufacturing Consent - Wikipedia](https://en.wikipedia.org/wiki/Manufacturing_Consent) #look-into 
-- [TikTok - Wikipedia](https://en.wikipedia.org/wiki/TikTok)

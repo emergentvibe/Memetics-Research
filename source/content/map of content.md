@@ -1,4 +1,9 @@
-![[my research]]
-![[somewhat watered essay seeds]]
+![[🔬 my research]]
 
-![[resources]]
+![[🌱 somewhat watered essay seeds]]
+
+![[🌰 unwatered essay seeds]]
+
+![[📚 resources]]
+
+![[references]]
