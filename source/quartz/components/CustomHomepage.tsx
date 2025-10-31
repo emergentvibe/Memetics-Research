@@ -15,7 +15,7 @@ export default (() => {
             <span class="gradient-text">EmergentVibe</span>
           </h1>
           <p class="hero__subtitle">
-            Exploring the intersection of <strong>art</strong>, <strong>research</strong>, and <strong>software</strong>
+            Feral free agent inspiring, cultivating, and capturing emergence
           </p>
           {/* <blockquote class="hero__quote">
             "Multi-talented polymath blending creative arts, advanced technology,
@@ -24,13 +24,13 @@ export default (() => {
           </blockquote> */}
         </section>
 
-        {/* ABOUT SECTION - Expert: "Critical addition. This immediately answers 'why should I care?' and establishes authority." */}
+        {/* ABOUT SECTION - Expert: "Critical addition. This immediately answers 'why should I care?' and establishes authority."
         <section class="about">
           <p class="about__text">
             This is my digital garden—a living collection of interconnected thoughts.
             I think a lot about superorganisms, the collective mind and how memetics can unify psychology and sociology into one science.
           </p>
-        </section>
+        </section> */}
 
         {/* PRIMARY CTA - Expert: "Clear conversion path. This button should be the most prominent element after the title." */}
         <section class="cta-primary">
